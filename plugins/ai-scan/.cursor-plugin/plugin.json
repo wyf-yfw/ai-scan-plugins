@@ -1,0 +1,10 @@
+{
+  "name": "ai-scan",
+  "displayName": "AI Scan",
+  "version": "0.1.0",
+  "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
+  "author": {
+    "name": "AI Scan"
+  },
+  "keywords": ["ai-scan", "mcp", "security"]
+}

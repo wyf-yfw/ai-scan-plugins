@@ -1,0 +1,22 @@
+{
+  "name": "ai-scan-plugins",
+  "owner": {
+    "name": "AI Scan"
+  },
+  "description": "AI Scan 插件市场，供 WorkBuddy / CodeBuddy 从本仓库安装。",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "ai-scan",
+      "source": "./plugins/ai-scan",
+      "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
+      "version": "0.1.0",
+      "author": {
+        "name": "AI Scan"
+      },
+      "license": "LicenseRef-proprietary",
+      "keywords": ["ai-scan", "mcp", "security"],
+      "category": "Security"
+    }
+  ]
+}

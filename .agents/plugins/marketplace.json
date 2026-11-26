@@ -1,0 +1,16 @@
+{
+  "name": "ai-scan-plugins",
+  "owner": {
+    "name": "AI Scan"
+  },
+  "plugins": [
+    {
+      "name": "ai-scan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-scan"
+      },
+      "category": "Security"
+    }
+  ]
+}

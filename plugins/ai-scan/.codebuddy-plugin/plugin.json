@@ -1,0 +1,8 @@
+{
+  "name": "ai-scan",
+  "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
+  "version": "0.1.0",
+  "author": {
+    "name": "AI Scan"
+  }
+}
