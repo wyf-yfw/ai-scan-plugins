@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ai-scan": {
+      "url": "${SCAN_URL}",
+      "headers": {
+        "X-Api-Key": "${API_KEY}"
+      }
+    }
+  }
+}

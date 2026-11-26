@@ -1,8 +1,18 @@
 {
   "name": "ai-scan",
   "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "AI Scan"
+  },
+  "userConfig": {
+    "scan_url": {
+      "description": "设备上的 AI Scan 地址，例如 http://10.0.0.8:8765/mcp",
+      "sensitive": false
+    },
+    "api_key": {
+      "description": "产品里签发的密钥，作为请求头 X-Api-Key",
+      "sensitive": true
+    }
   }
 }

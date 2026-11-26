@@ -1,10 +1,28 @@
 {
   "name": "ai-scan",
   "displayName": "AI Scan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
   "author": {
     "name": "AI Scan"
   },
-  "keywords": ["ai-scan", "mcp", "security"]
+  "keywords": ["ai-scan", "mcp", "security"],
+  "mcpServers": "./cursor-mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SCAN_URL": {
+        "type": "string",
+        "title": "MCP 地址",
+        "description": "设备上的 AI Scan 地址，例如 http://10.0.0.8:8765/mcp",
+        "default": "http://127.0.0.1:8765/mcp"
+      },
+      "API_KEY": {
+        "type": "string",
+        "title": "API Key",
+        "description": "产品里签发的密钥，作为请求头 X-Api-Key"
+      }
+    },
+    "required": ["SCAN_URL", "API_KEY"]
+  }
 }

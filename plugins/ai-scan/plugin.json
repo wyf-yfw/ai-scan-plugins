@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-scan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
   "author": {
     "name": "AI Scan"
