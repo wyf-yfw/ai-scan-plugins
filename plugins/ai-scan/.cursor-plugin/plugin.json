@@ -1,7 +1,7 @@
 {
   "name": "ai-scan",
   "displayName": "AI Scan",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "连接客户自己的 AI Scan，查询任务、资产、报表和知识库。",
   "author": {
     "name": "AI Scan"

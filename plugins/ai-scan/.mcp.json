@@ -2,10 +2,7 @@
   "mcpServers": {
     "ai-scan": {
       "type": "http",
-      "url": "${user_config.scan_url}",
-      "headers": {
-        "X-Api-Key": "${user_config.api_key}"
-      }
+      "url": "http://127.0.0.1:8765/mcp"
     }
   }
 }

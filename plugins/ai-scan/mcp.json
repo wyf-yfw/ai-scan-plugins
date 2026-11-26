@@ -3,16 +3,7 @@
   "mcpServers": {
     "ai-scan": {
       "type": "streamable-http",
-      "url": "http://127.0.0.1:8765/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "api_key",
-            "headerScheme": "custom_header",
-            "headerName": "X-Api-Key"
-          }
-        }
-      }
+      "url": "http://127.0.0.1:8765/mcp"
     }
   }
 }
