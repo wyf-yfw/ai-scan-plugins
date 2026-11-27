@@ -2,35 +2,35 @@
 
 一个仓库同时供 Claude Code、Codex、WorkBuddy、Cursor 安装。插件本体在 `plugins/ai-scan`，四份市场清单只登记这一份。
 
-仓库地址：`https://gitlab.inone.nsfocus.com/wvss/ai-scan/ai-scan-plugins`。这是私有仓库，客户的账号需要有读取权限。
+仓库地址：`https://github.com/wyf-yfw/ai-scan-plugins`。这是私有仓库，客户的 GitHub 账号需要有读取权限。
 
 ## 客户安装
 
 Claude Code：
 
 ```bash
-claude plugin marketplace add https://gitlab.inone.nsfocus.com/wvss/ai-scan/ai-scan-plugins.git
+claude plugin marketplace add https://github.com/wyf-yfw/ai-scan-plugins.git
 claude plugin install ai-scan@ai-scan-plugins
 ```
 
 Codex：
 
 ```bash
-codex plugin marketplace add https://gitlab.inone.nsfocus.com/wvss/ai-scan/ai-scan-plugins.git
+codex plugin marketplace add https://github.com/wyf-yfw/ai-scan-plugins.git
 codex plugin add ai-scan@ai-scan-plugins
 ```
 
 WorkBuddy：在插件页添加市场，输入下面的地址。也可以在对话里执行：
 
 ```text
-/plugin marketplace add https://gitlab.inone.nsfocus.com/wvss/ai-scan/ai-scan-plugins.git
+/plugin marketplace add https://github.com/wyf-yfw/ai-scan-plugins.git
 /plugin install ai-scan@ai-scan-plugins
 ```
 
 Cursor 2.5 及以上，在 Agent 对话里整句输入：
 
 ```text
-/add-plugin ai-scan@https://gitlab.inone.nsfocus.com/wvss/ai-scan/ai-scan-plugins.git
+/add-plugin ai-scan@https://github.com/wyf-yfw/ai-scan-plugins.git
 ```
 
 ## 安装时填写设备
