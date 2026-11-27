@@ -66,6 +66,6 @@ Claude Code：写当前项目在 `~/.claude.json` 里的 `mcpServers.ai-scan`。
 }
 ```
 
-Cursor：写用户目录的 `mcp.json`，Windows 是 `%USERPROFILE%\.cursor\mcp.json`，结构同上，放在 `mcpServers.ai-scan`。
+Cursor：不要改 `mcp.json`。让用户打开已安装的 AI Scan 插件，点右上角 Configure，填写 MCP 地址和 API Key，再点 Save。地址形如 `http://<设备>:8765/mcp`。
 
 WorkBuddy：插件用 `user_config.scan_url` 和 `user_config.api_key`。本机若已有 MCP 配置文件，按 Claude Code 的结构写入 `ai-scan`。没有可写文件时，把这两项交给用户填进插件的配置项。
