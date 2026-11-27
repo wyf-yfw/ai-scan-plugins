@@ -40,7 +40,7 @@ Cursor 2.5 及以上，在 Agent 对话里整句输入：
 - 地址：`http://<设备>:8765/mcp`。Claude Code 和 Cursor 的默认值是 `http://127.0.0.1:8765/mcp`，设备不在本机就改掉。
 - API Key：产品里签发的密钥，请求头名是 `X-Api-Key`。
 
-Codex 的地址先按本机 `8765` 端口连接，密钥在连接时按 `X-Api-Key` 填写。设备不在本机时，在插件的「管理」里把地址改成设备地址。
+Codex 安装后 MCP 和技能都在，地址和密钥是空的。第一次使用，或 MCP 连不上时，执行技能 `ai-scan-init`。它会询问设备地址和 API Key，并写入本机 `%USERPROFILE%\.codex\config.toml` 的 `mcp_servers.ai-scan`。请求头名是 `X-Api-Key`。写完后新开一个对话再使用。
 
 跑客户端的机器必须能访问设备的 `8765` 端口。更新市场后再安装一次，才会看到这个 MCP。
 

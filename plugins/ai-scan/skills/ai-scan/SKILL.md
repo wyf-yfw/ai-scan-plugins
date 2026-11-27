@@ -1,6 +1,6 @@
 ---
 name: ai-scan
-description: 使用已连接的 AI Scan MCP 查询和操作扫描任务、AI 资产、报表和知识库。用户提到 AI Scan、扫描任务、资产、风险库或报表时使用。
+description: 使用已连接的 AI Scan MCP 查询和操作扫描任务、AI 资产、报表和知识库。用户提到 AI Scan、扫描任务、资产、风险库或报表时使用。尚未配置地址和 API Key，或 MCP 连接失败时，先转去执行 ai-scan-init。
 ---
 
 # AI Scan
@@ -9,7 +9,9 @@ description: 使用已连接的 AI Scan MCP 查询和操作扫描任务、AI 资
 
 ## 连接
 
-服务是 Streamable HTTP，路径为 `POST /mcp`，默认端口 `8765`。鉴权请求头是 `X-Api-Key`，密钥在产品里签发。地址和密钥由用户安装插件后填写，不要在对话里向用户索要后写进仓库。
+服务是 Streamable HTTP，路径为 `POST /mcp`，默认端口 `8765`。鉴权请求头是 `X-Api-Key`，密钥在产品里签发。
+
+还没有地址和密钥，或调用失败、鉴权失败、工具列表为空时，先执行 `ai-scan-init`。由它询问用户并写入本机配置。不要把密钥写进插件仓库。
 
 ## 使用
 
